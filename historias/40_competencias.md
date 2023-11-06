@@ -35,7 +35,7 @@ POST /api/v1/competitions
   "result": "00:01:42.00",
   "position": 1
 }
-
+```
 
 
 
