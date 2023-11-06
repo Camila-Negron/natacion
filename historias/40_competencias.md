@@ -25,7 +25,7 @@ Título: Seguimiento de competencias
 
 ## Request/Response
 Request:
-```
+
 POST /api/v1/competitions
 ```
 {
@@ -46,6 +46,5 @@ Response: Exitoso statusCode: 200
   "event_name": "Spring Regional",
   "status": "success"
 }
-
 
 ```
