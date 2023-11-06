@@ -27,7 +27,7 @@ Título: Registro de tiempos de natación personal
 
 ## Request/Response
 Request:
-```
+
 POST /api/v1/times
 ```
 {
@@ -35,6 +35,7 @@ POST /api/v1/times
   "distance": 100,
   "time": "00:01:45.30"
 }
+```
 
 
 
