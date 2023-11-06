@@ -1,3 +1,27 @@
+# Análisis y Diseño de Software Natacion
+
+## Valor
+Obtener ingresos a través de suscripciones premium, publicidad, patrocinios o la venta de datos analíticos a equipos profesionales.
+
+## Historias de usuario
+
+10. Ingreso.
+15. Registro inicial.
+20. Registro de Tiempos.
+30. Visualización de Progreso.
+40. Competencias y Resultados.
+50. Metas y Objetivos.
+60. Análisis Detallado.
+
+
+
+
+
+
+
+
+
+
 # Natacion
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
