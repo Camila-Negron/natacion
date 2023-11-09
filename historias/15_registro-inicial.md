@@ -15,7 +15,10 @@ Título: Registro de todos los datos para la configuracion incial
 # Analisis
 
 ## Pantalla de registro inicial
-![Alt text](image.png)
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
 
 ## Criterios de Aceptación (Gherkin)
 - Dado que el usuario ha iniciado sesión en la aplicación
