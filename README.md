@@ -7,11 +7,10 @@ Obtener ingresos a través de suscripciones premium, publicidad, patrocinios o l
 
 10. Ingreso.
 15. Registro inicial.
-20. Registro de Tiempos.
-30. Visualización de Progreso.
-40. Competencias y Resultados.
-50. Metas y Objetivos.
-60. Análisis Detallado.
+20. Nuevo Registro.
+30. Registro Competencia
+40. Tablero.
+
 
 
 
