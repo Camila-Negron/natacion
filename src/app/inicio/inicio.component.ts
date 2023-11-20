@@ -10,7 +10,7 @@ import { AuthService } from '@auth0/auth0-angular';
 })
 export class InicioComponent implements OnInit{
   // Inject the authentication service into your component through the constructor
-  constructor(public auth: AuthService) {}
+  constructor(public auth: AuthService,private router: Router) {}
 
   ngOnInit():void{
 
@@ -19,5 +19,16 @@ export class InicioComponent implements OnInit{
   logOut(){
     this.auth.logout();
   }
+
+  isAccordionOpen = false;
+
+  toggleAccordion(): void {
+    this.isAccordionOpen = !this.isAccordionOpen;
+  }
+
+  piscina(): void {
+    this.router.navigate(['/piscina']);
+  }
+  
 
 }

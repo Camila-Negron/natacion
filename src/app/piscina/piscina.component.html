@@ -1,0 +1,21 @@
+<p>piscina works!</p>
+<div class="configuracion-piscina">
+    <h2>Configuración de natación: Piscina</h2>
+    <div class="piscina-imagen">
+      <!-- La imagen de fondo de la piscina se establece a través de CSS -->
+    </div>
+    <div class="largo-piscina">
+      <h3>Largo de la piscina para nadar?</h3>
+      <div class="opciones-largo">
+        <button class="opcion" (click)="setLargo('15m')">15m</button>
+        <button class="opcion" (click)="setLargo('25m')">25m</button>
+        <button class="opcion" (click)="setLargo('50m')">50m</button>
+        <button class="opcion otro" (click)="setLargo('otro')">otro</button>
+      </div>
+      <div class="descripcion-nivel">
+        <p>NIVEL 15m: Recién estoy comenzando. Puedo nadar pocos metros de largo por cansancio y poca práctica.</p>
+      </div>
+      <button class="siguiente">Siguiente</button>
+    </div>
+  </div>
+  

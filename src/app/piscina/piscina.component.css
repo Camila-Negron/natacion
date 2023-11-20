@@ -1,0 +1,64 @@
+.configuracion-piscina {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .piscina-imagen {
+    background-image: url('https://concepto.de/wp-content/uploads/2019/06/natacion-e1562943144215.jpg');
+    background-size: cover;
+    height: 392px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .largo-piscina h3 {
+    margin-bottom: 10px;
+  }
+  
+  .opciones-largo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .opcion {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .opcion:hover {
+    background-color: #0056b3;
+  }
+  
+  .opcion.otro {
+    /* Estilos adicionales para 'otro' si es necesario */
+  }
+  
+  .descripcion-nivel p {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .siguiente {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .siguiente:hover {
+    background-color: #218838;
+  }
+  
