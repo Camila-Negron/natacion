@@ -9,13 +9,15 @@ import { LoginComponent } from './login/login.component';
 import { AuthModule } from '@auth0/auth0-angular';
 import { InicioComponent } from './inicio/inicio.component';
 import { PiscinaComponent } from './piscina/piscina.component';
+import { ObjetivoComponent } from './objetivo/objetivo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     InicioComponent,
-    PiscinaComponent
+    PiscinaComponent,
+    ObjetivoComponent
   ],
   imports: [
     BrowserModule,

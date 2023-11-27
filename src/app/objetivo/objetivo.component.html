@@ -1,0 +1,12 @@
+<div class="swimming-config">
+    <h2>Configuración de natación: Objetivos</h2>
+    <ul>
+      <li *ngFor="let objective of objectives">
+        <input type="checkbox" id="{{objective.name}}" (change)="toggleObjective(objective)">
+        <label for="{{objective.name}}">{{objective.name}}</label>
+      </li>
+    </ul>
+    <!-- <button (click)="next()">Siguiente</button> -->
+    <button class="siguiente">Siguiente</button>
+  </div>
+  
