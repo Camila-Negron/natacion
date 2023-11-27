@@ -1,5 +1,8 @@
-<div class="swimming-config">
+<div class="configuracion-objetivo">
     <h2>Configuración de natación: Objetivos</h2>
+    <div class="piscina-imagen">
+      <!-- La imagen de fondo de la piscina se establece a través de CSS -->
+    </div>
     <ul>
       <li *ngFor="let objective of objectives">
         <input type="checkbox" id="{{objective.name}}" (change)="toggleObjective(objective)">

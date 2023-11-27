@@ -1,32 +1,44 @@
-.swimming-config {
-    max-width: 600px;
+.configuracion-objetivo {
+    font-family: Arial, sans-serif;
+    max-width: 850px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  }
+
+  .piscina-imagen {
+    background-image: url('https://m.media-amazon.com/images/I/81AVsKEdW1L._AC_SX679_.jpg');
+    background-size: cover;
+    height: 392px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
   }
   
-  .swimming-config h2 {
+  .configuracion-objetivo h2 {
     color: #333;
     font-size: 24px;
     text-align: center;
   }
   
-  .swimming-config ul {
+  .configuracion-objetivo ul {
     list-style: none;
     padding: 0;
   }
   
-  .swimming-config li {
+  .configuracion-objetivo li {
     margin-bottom: 10px;
   }
   
-  .swimming-config label {
+  .configuracion-objetivo label {
     margin-left: 5px;
   }
   
-  .swimming-config button {
+  .configuracion-objetivo button {
     display: block;
     width: 100%;
     padding: 10px;
@@ -37,7 +49,7 @@
     cursor: pointer;
   }
   
-  .swimming-config button:hover {
+  .configuracion-objetivo button:hover {
     background-color: #0056b3;
   }
   
