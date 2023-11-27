@@ -11,6 +11,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { PiscinaComponent } from './piscina/piscina.component';
 import { ObjetivoComponent } from './objetivo/objetivo.component';
 import { BrazadaComponent } from './brazada/brazada.component';
+import { TiempoComponent } from './tiempo/tiempo.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BrazadaComponent } from './brazada/brazada.component';
     InicioComponent,
     PiscinaComponent,
     ObjetivoComponent,
-    BrazadaComponent
+    BrazadaComponent,
+    TiempoComponent
   ],
   imports: [
     BrowserModule,

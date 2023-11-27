@@ -1,0 +1,77 @@
+/* Estilos generales para el contenedor */
+.configuracion-tiempo {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 850px;
+    margin: auto;
+  }
+
+  .piscina-imagen {
+    background-image: url('https://www.clarin.com/img/2015/04/27/SkQ-fc0me_1256x620.jpg');
+    background-size: cover;
+    height: 392px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+  }
+  
+  /* Estilos para los encabezados */
+  .configuracion-tiempo h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el grupo de entrada */
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el selector y el campo de entrada */
+  .input-group select,
+  .input-group input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el botón de información */
+  .info-button {
+    padding: 0 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el texto de información */
+  .info-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el botón 'Siguiente' */
+  .next-button {
+    background: #0275d8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .next-button:hover {
+    background-color: #0275d8;
+  }
+  
