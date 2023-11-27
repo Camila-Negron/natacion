@@ -12,6 +12,7 @@ import { PiscinaComponent } from './piscina/piscina.component';
 import { ObjetivoComponent } from './objetivo/objetivo.component';
 import { BrazadaComponent } from './brazada/brazada.component';
 import { TiempoComponent } from './tiempo/tiempo.component';
+import { DiasComponent } from './dias/dias.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TiempoComponent } from './tiempo/tiempo.component';
     PiscinaComponent,
     ObjetivoComponent,
     BrazadaComponent,
-    TiempoComponent
+    TiempoComponent,
+    DiasComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { PiscinaComponent } from './piscina/piscina.component';
 import { ObjetivoComponent } from './objetivo/objetivo.component';
 import { BrazadaComponent } from './brazada/brazada.component';
 import { TiempoComponent } from './tiempo/tiempo.component';
+import { DiasComponent } from './dias/dias.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'objetivo',component:ObjetivoComponent},
   {path:'brazada',component:BrazadaComponent},
   {path:'tiempo',component:TiempoComponent},
+  {path:'dias',component:DiasComponent},
 
 
   {path:'**',redirectTo:'login',pathMatch:'full'},

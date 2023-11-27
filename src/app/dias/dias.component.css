@@ -1,0 +1,108 @@
+.configuracion-dias {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .natacion-imagen {
+    background-image: url('https://concepto.de/wp-content/uploads/2019/06/natacion-e1562943144215.jpg');
+    background-size: cover;
+    height: 392px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .nivel-navbar {
+    background: #007bff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .nivel-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nivel-navbar li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nivel-navbar li a:hover,
+  .nivel-navbar li a.active {
+    background-color: #0056b3;
+  }
+
+  .nivel-seleccion {
+    background: #f3ebeb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .nivel-seleccion label, .nivel-seleccion p {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .nivel-seleccion select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .nivel-seleccion button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nivel-seleccion button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Estilos anteriores aquí */
+
+.entrenamiento-acordeon .acordeon-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .entrenamiento-acordeon .acordeon-btn:hover,
+  .entrenamiento-acordeon .acordeon-btn.active {
+    background-color: #0056b3;
+  }
+  
+  .entrenamiento-acordeon .acordeon-content {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .entrenamiento-acordeon .acordeon-content.active {
+    display: block;
+  }
+  
