@@ -1,0 +1,16 @@
+<div class="configuracion-estilo">
+    <h2>Configuración de natación: Seleccionar brazadas</h2>
+    <div class="styles-list">
+        <div class="piscina-imagen">
+      <!-- La imagen de fondo de la piscina se establece a través de CSS -->
+    </div>
+      <!-- Opciones de estilos de natación -->
+      <button (click)="selectStyle('crawl')">Crol</button>
+      <button (click)="selectStyle('butterfly')">Mariposa</button>
+      <button (click)="selectStyle('backstroke')">Espalda</button>
+      <button (click)="selectStyle('individual_medley')">Combinado individual</button>
+      <button (click)="selectStyle('kick')">Patada</button>
+    </div>
+    <button class="next-button" (click)="goNext()">Siguiente</button>
+  </div>
+  

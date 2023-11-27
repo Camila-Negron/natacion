@@ -10,6 +10,7 @@ import { AuthModule } from '@auth0/auth0-angular';
 import { InicioComponent } from './inicio/inicio.component';
 import { PiscinaComponent } from './piscina/piscina.component';
 import { ObjetivoComponent } from './objetivo/objetivo.component';
+import { BrazadaComponent } from './brazada/brazada.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ObjetivoComponent } from './objetivo/objetivo.component';
     LoginComponent,
     InicioComponent,
     PiscinaComponent,
-    ObjetivoComponent
+    ObjetivoComponent,
+    BrazadaComponent
   ],
   imports: [
     BrowserModule,
